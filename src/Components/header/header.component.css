@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  width: 100%;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-left > div {
+  display: flex;
+  width: 40%;
+  justify-content: left;
+}
+
+.header-left .round-btn {
+  margin-top: 20px;
+  align-self: baseline;
+}
+
+.header-right {
+  justify-content: flex-end;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.header-right {
+  display: flex;
+  width: 50%;
+}
+
+.round-btn {
+  background-color: crimson;
+  color: white;
+  border-radius: 50px;
+  width: 180px;
+  height: 50px;
+  border: none;
+}
+
+img[alt="pic"] {
+  z-index: -1;
+}

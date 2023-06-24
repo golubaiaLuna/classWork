@@ -1,0 +1,23 @@
+.title_mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title_mid > h5 {
+  width: 400px;
+  color: blueviolet;
+}
+
+.title_mid > h2 {
+  width: 400px;
+}
+
+.title_mid > h3 {
+  width: 400px;
+}
